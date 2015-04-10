@@ -282,7 +282,7 @@ header
 .fruit{
 	font-family : Cambria;
 	color:#ffffff;
-	line-height:70%;
+	line-height:90%;
 	text-transform:uppercase;
 	margin:0;
 	padding:0;
@@ -683,3 +683,7 @@ footer section:last-child input:last-child {
 	border: 2px solid #d9dbd5;
 	color: #939292;
 	}
+
+.mobile {
+    display: none
+}

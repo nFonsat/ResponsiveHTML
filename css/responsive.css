@@ -29,3 +29,38 @@ header {
     text-align: center;
     margin: 10px auto;
 }
+
+.desktop {
+    display: none
+}
+
+#offres_speciales {
+    width: 100%;
+}
+
+#offres_speciales article {
+    display: block;
+    float: none;
+    width: 100%;
+}
+
+#offres_speciales #slider {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0px;
+    margin-bottom: 40px;
+}
+
+#offres_speciales #images {   
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+#offres_speciales #images img{
+    width: 100%
+}
+
+#offres_speciales #information_btn{
+    float: right;
+    display: block;
+}
