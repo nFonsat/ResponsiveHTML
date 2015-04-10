@@ -89,27 +89,57 @@ header{
 	-moz-user-select: none; 
 	-ms-user-select: none; 
 	user-select: none; 
-	left: 0px; 
-	top: 10px;
+	left: 15px;
+	top: 25px;
 	height:50px; 
 	width: 50px; 
 	display: block; 
 	position: fixed; 
 	background: rgba(255,255,255,.0); 
-	z-index: 1;
+	z-index: 1; 
+	cursor: pointer; 
+	-webkit-transition: .25s ease-in-out; 
+	-moz-transition: .25s ease-in-out; 
+	-o-transition: .25s ease-in-out; 
+	transition: .25s ease-in-out; 
 } 
 
-#drawer-toggle-label:before { 
-	content: ''; 
-	display: block; 
-	position: absolute; 
-	height: 2px; 
-	width: 24px; 
-	background: #8d8d8d; 
-	left: 13px; 
-	top: 18px; 
-	box-shadow: 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d; 
-} 
+#drawer-toggle-label span, 
+#drawer-toggle-label span:before, 
+#drawer-toggle-label span:after {
+	cursor: pointer;
+	border-radius: 1px;
+	height: 2px;
+	width: 24px;
+	background: gray; 
+	position: absolute;
+	display: block;
+	content: '';
+}
+#drawer-toggle-label span:before {
+	top: -6px; 
+}
+#drawer-toggle-label span:after {
+	bottom: -6px;
+}
+
+#drawer-toggle-label span, 
+#drawer-toggle-label span:before, 
+#drawer-toggle-label span:after {
+transition: all 0.15s ease-in-out;
+}
+#drawer-toggle:checked ~  #drawer-toggle-label span {
+ 	background-color: transparent;
+}
+#drawer-toggle:checked ~  #drawer-toggle-label span:before, #drawer-toggle:checked ~  #drawer-toggle-label span:after {
+ 	top: 0;
+}
+#drawer-toggle:checked ~  #drawer-toggle-label span:before {
+ 	transform: rotate(45deg);
+}
+#drawer-toggle:checked ~  #drawer-toggle-label span:after {
+ 	transform: rotate(-45deg);
+}
 
 #drawer-toggle:checked ~ #drawer-toggle-label { 
 	height: 100%; 
