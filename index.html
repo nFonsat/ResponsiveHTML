@@ -23,6 +23,10 @@
 			<p id="sous_titre">Fruits et légumes de France et du Monde</p>
 		</header>
 		<!-- MENUBAR -->
+
+		<input type="checkbox" id="drawer-toggle" name="drawer-toggle" class="mobile"/>
+   		<label for="drawer-toggle" id="drawer-toggle-label" class="mobile"></label>
+
 		<nav>
 			<ul class="menuDeroulant">
 				<li>
@@ -55,188 +59,193 @@
 				<li><a href="#" class="menu">A propos</a></li>
 			</ul>
 		</nav>
-		<!-- OFFRES SPACIALES -->
-		<section id="offres_speciales" class="bloc">
-			<article>
-				<h6>Offre spéciale</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tellus tortor, venenatis non enim at, ultricies cursus dolor. Proin est sem, cursus sed augue vitae, sagittis mattis metus. Donec ac.</p>
-				<button type="button">Découvrir l'offre</button>
-			</article>
-			<div id="slider">
-				<div id="images"><img src="img/725_352_3.png" title="Fruits"></img></div>
-			</div>
-		</section>
-		<!-- OFFRES PRODUITS -->
-		<section id="offres">
-			<article class="offre">
-				<div class="offres_infos">
-					<p class="fruit">Fraises d'espagne</p>
-					<p class="prix">5.50€/kg</p>
-				</div>
-				<div class="offres_image">
-					<img src="img/img1.png" alt="Fraises d'espagne'" />
-				</div>
-			</article>
-			<article class="offre">
-				<div class="offres_infos">
-					<p class="fruit">Citrons</p>
-					<p class="remise">20% de remise !</p>
-					<p class="prix">2.40€/kg</p>
-				</div>
-				<div class="offres_image">
-					<img src="img/img2.png" alt="Fraises d'espagne'" />
-				</div>
-			</article>
-			<article class="offre">
-				<div class="offres_infos">
-					<p class="fruit">Poivron Rouge</p>
-					<p class="prix">3.20€/kg</p>
-				</div>
-				<div class="offres_image">
-					<img src="img/img3.png" alt="Fraises d'espagne'" />
-				</div>
-			</article>
-		</section>
-		<!-- PRESENTATION PRODUITS -->
-		<div id="presentation_produit">
-			<!-- NOUVEAUX PRODUITS : 1st Part -->
-			<section class="bloc" id="nouveaux_produits">
-				<h3><strong>Nouveaux</strong> produits</h3>
+
+		<div id="content">
+
+			<!-- OFFRES SPACIALES -->
+			<section id="offres_speciales" class="bloc">
 				<article>
-					<img src="img/44-home_default.jpg" title="Cornichons extra fins"></img>
-					<h5>Cornichons extra fins</h5>
+					<h6>Offre spéciale</h6>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tellus tortor, venenatis non enim at, ultricies cursus dolor. Proin est sem, cursus sed augue vitae, sagittis mattis metus. Donec ac.</p>
-					<span class="prix_actual">6.25€/kg</span>
-					<table>
-						<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
-					</table>
+					<button type="button">Découvrir l'offre</button>
 				</article>
-				<article>
-					<img src="img/45-home_default.jpg" title="Bananes du Costa Rica"></img>
-					<h5>Bananes du Costa Rica</h5>
-					<p>Quisque tempor accumsan risus, at rutrum enim dapibus et. Curabitur non tortor ipsum. Pellentesque lacus felis, malesuada sed mi vel, mattis rutrum dui. Curabitur et risus neque. Lorem ipsum dolor.</p>
-					<span class="prix_actual">4.20€/kg</span>
-					<table>
-						<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
-					</table>
-				</article>
-				<article>
-					<img src="img/46-home_default.jpg" title="Granny Smith"></img>
-					<h5>Granny Smith</h5>
-					<p>Nunc quam nibh, suscipit a ligula pulvinar, cursus pulvinar massa. Sed ullamcorper ligula ac varius rutrum. Quisque at turpis vestibulum, convallis lacus vel, iaculis nunc. Vestibulum quis lorem ut nibh.</p>
-					<span class="prix_actual">6.35€/kg</span>
-					<table>
-						<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
-					</table>
-				</article>
-				<!-- PUB -->
-				<aside><img src="img/2_003.png"></img></aside>
-				<!-- OFFRE DU MOMENT -->
-				<section id="offre_du_moment">
-					<h3><strong>Offre</strong> du moment</h3>
-					<article><img src="img/1_002.png" title="20% sur les annanas"></img></article>
-				</section>
-				<!-- NOUVEAUX PRODUITS : 2nd Part -->
-				<div id="second_part">
-					<article>
-						<img src="img/50-home_default.jpg" title="Melons de sisteron"></img>
-						<h5>Melons de sisteron</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tellus tortor, venenatis non enim at, ultricies cursus dolor. Proin est sem, cursus sed augue vitae, sagittis mattis metus. Donec ac.</p>
-						<span class="prix_actual">4.75€/kg</span>
-						<table>
-							<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
-						</table>
-					</article>
-					<article>
-						<img src="img/49-home_default.jpg" title="Citrons verts"></img>
-						<h5>Citrons verts</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tellus tortor, venenatis non enim at, ultricies cursus dolor. Proin est sem, cursus sed augue vitae, sagittis mattis metus. Donec ac.</p>
-						<span class="prix_actual">3.70€/kg</span>
-						<table>
-							<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
-						</table>
-					</article>
-				</span>
+				<div id="slider">
+					<div id="images"><img src="img/725_352_3.png" title="Fruits"></img></div>
+				</div>
 			</section>
-			<!-- MENU DE DROITE -->
-			<section id="bloc_right">
-				<!-- PANIER -->
-				<section class="bloc" id="panier">
-					<img src="img/cart.gif" title="Panier"></img>
-					<h1>Votre <strong>panier</strong></h1>
-					<p>Produits (vide)</p>
-				</section>
-				<!-- CATALOGUE -->
-				<nav class="bloc" id="catalogue">
-					<h4>Catalogue</h4>
-					<ul class="vertical">
-						<li><a href="#" target="_blank">Fruits</a></li>
-						<li><a href="#" target="_blank">Légumes</a></li>
-						<li><a href="#" target="_blank">Condiments</a></li>
-						<li><a href="#" target="_blank">Epices</a></li>
-					</ul>
-				</nav>
-				<!-- A NE PAS MANQUER -->
-				<section class="bloc" id="a_ne_pas_manquer">
-					<h4>A ne pas manquer !</h4>
-					<article>
-						<img src="img/47-hot_products.jpg" title="Citrons verts"></img>
-						<div class="desc">
-							<div class="promo_prix_pourcentage">-10%</div>
-							<h5>Citrons verts</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<span class="prix_actual">3.78€/kg</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="prix_old">4.20€/kg</span>
-						</div>
-					</article>
-					<article>
-						<img src="img/52-hot_products.jpg" title="Oranges"></img>
-						<div class="desc">
-							<div class="promo_prix_pourcentage">-20%</div>
-							<h5>Oranges</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<span class="prix_actual">2.40€/kg</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="prix_old">3.00€/kg</span>
-						</div>
-					</article>
-					<article>
-						<img src="img/55-hot_products.jpg" title="Radis"></img>
-						<div class="desc">
-							<div class="promo_prix_pourcentage">-10%</div>
-							<h5>Radis</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<span class="prix_actual">3.82€</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="prix_old">4.50€ la botte</span>
-						</div>
-					</article>
-					<a href="#" id="plus_offres">» Toutes nos offres</a>
-				</section>
-			</section>
-		</div>
-	</div>
-	<!-- DERNIERES INFOS PRODUITS -->
-	<div id="pre_footer">
-		<div class="corps">
-			<div id="back_top"><a href="#haut_de_page">Haut</a></div><h3><strong>Dernières</strong> infos produits</h3>
-			<section id="dernieres_infos_produits">
-				<article>
-					<img src="img/4.png" alt="Haricots"></img>
-					<div>
-						<span class="title">Les petits poids, c'est bon pour la santé</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis eros eget augue porttitor, vitae sollicitudin arcu tristique. Aenean tincidunt purus nibh, condimentum porttitor orci vehicula eu. Curabitur eget nibh.</p>
+			<!-- OFFRES PRODUITS -->
+			<section id="offres">
+				<article class="offre">
+					<div class="offres_infos">
+						<p class="fruit">Fraises d'espagne</p>
+						<p class="prix">5.50€/kg</p>
+					</div>
+					<div class="offres_image">
+						<img src="img/img1.png" alt="Fraises d'espagne'" />
 					</div>
 				</article>
-				<article>
-					<img src="img/3.png" alt="Brocolis ou choux de Bruxelles"></img>
-					<div class="title">Brocolis ou choux de Bruxelles ?</div>
+				<article class="offre">
+					<div class="offres_infos">
+						<p class="fruit">Citrons</p>
+						<p class="remise">20% de remise !</p>
+						<p class="prix">2.40€/kg</p>
+					</div>
+					<div class="offres_image">
+						<img src="img/img2.png" alt="Fraises d'espagne'" />
+					</div>
 				</article>
-				<article>
-					<img src="img/2_002.png" alt="Radis"></img>
-					<div class="title">Des radis pour le printemps</div>
-				</article>
-				<article>
-					<img src="img/1.png" alt="Choux fleurs"></img>
-					<div class="title">Nos derniers choux fleurs</div>
+				<article class="offre">
+					<div class="offres_infos">
+						<p class="fruit">Poivron Rouge</p>
+						<p class="prix">3.20€/kg</p>
+					</div>
+					<div class="offres_image">
+						<img src="img/img3.png" alt="Fraises d'espagne'" />
+					</div>
 				</article>
 			</section>
+			<!-- PRESENTATION PRODUITS -->
+			<div id="presentation_produit">
+				<!-- NOUVEAUX PRODUITS : 1st Part -->
+				<section class="bloc" id="nouveaux_produits">
+					<h3><strong>Nouveaux</strong> produits</h3>
+					<article>
+						<img src="img/44-home_default.jpg" title="Cornichons extra fins"></img>
+						<h5>Cornichons extra fins</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tellus tortor, venenatis non enim at, ultricies cursus dolor. Proin est sem, cursus sed augue vitae, sagittis mattis metus. Donec ac.</p>
+						<span class="prix_actual">6.25€/kg</span>
+						<table>
+							<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
+						</table>
+					</article>
+					<article>
+						<img src="img/45-home_default.jpg" title="Bananes du Costa Rica"></img>
+						<h5>Bananes du Costa Rica</h5>
+						<p>Quisque tempor accumsan risus, at rutrum enim dapibus et. Curabitur non tortor ipsum. Pellentesque lacus felis, malesuada sed mi vel, mattis rutrum dui. Curabitur et risus neque. Lorem ipsum dolor.</p>
+						<span class="prix_actual">4.20€/kg</span>
+						<table>
+							<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
+						</table>
+					</article>
+					<article>
+						<img src="img/46-home_default.jpg" title="Granny Smith"></img>
+						<h5>Granny Smith</h5>
+						<p>Nunc quam nibh, suscipit a ligula pulvinar, cursus pulvinar massa. Sed ullamcorper ligula ac varius rutrum. Quisque at turpis vestibulum, convallis lacus vel, iaculis nunc. Vestibulum quis lorem ut nibh.</p>
+						<span class="prix_actual">6.35€/kg</span>
+						<table>
+							<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
+						</table>
+					</article>
+					<!-- PUB -->
+					<aside><img src="img/2_003.png"></img></aside>
+					<!-- OFFRE DU MOMENT -->
+					<section id="offre_du_moment">
+						<h3><strong>Offre</strong> du moment</h3>
+						<article><img src="img/1_002.png" title="20% sur les annanas"></img></article>
+					</section>
+					<!-- NOUVEAUX PRODUITS : 2nd Part -->
+					<div id="second_part">
+						<article>
+							<img src="img/50-home_default.jpg" title="Melons de sisteron"></img>
+							<h5>Melons de sisteron</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tellus tortor, venenatis non enim at, ultricies cursus dolor. Proin est sem, cursus sed augue vitae, sagittis mattis metus. Donec ac.</p>
+							<span class="prix_actual">4.75€/kg</span>
+							<table>
+								<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
+							</table>
+						</article>
+						<article>
+							<img src="img/49-home_default.jpg" title="Citrons verts"></img>
+							<h5>Citrons verts</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tellus tortor, venenatis non enim at, ultricies cursus dolor. Proin est sem, cursus sed augue vitae, sagittis mattis metus. Donec ac.</p>
+							<span class="prix_actual">3.70€/kg</span>
+							<table>
+								<tr><td><a href="#">Ajouter au panier</a></td><td>|</td><td><a href="#">Voir Le Détail</a></td></tr>
+							</table>
+						</article>
+					</span>
+				</section>
+				<!-- MENU DE DROITE -->
+				<section id="bloc_right">
+					<!-- PANIER -->
+					<section class="bloc" id="panier">
+						<img src="img/cart.gif" title="Panier"></img>
+						<h1>Votre <strong>panier</strong></h1>
+						<p>Produits (vide)</p>
+					</section>
+					<!-- CATALOGUE -->
+					<nav class="bloc" id="catalogue">
+						<h4>Catalogue</h4>
+						<ul class="vertical">
+							<li><a href="#" target="_blank">Fruits</a></li>
+							<li><a href="#" target="_blank">Légumes</a></li>
+							<li><a href="#" target="_blank">Condiments</a></li>
+							<li><a href="#" target="_blank">Epices</a></li>
+						</ul>
+					</nav>
+					<!-- A NE PAS MANQUER -->
+					<section class="bloc" id="a_ne_pas_manquer">
+						<h4>A ne pas manquer !</h4>
+						<article>
+							<img src="img/47-hot_products.jpg" title="Citrons verts"></img>
+							<div class="desc">
+								<div class="promo_prix_pourcentage">-10%</div>
+								<h5>Citrons verts</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<span class="prix_actual">3.78€/kg</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="prix_old">4.20€/kg</span>
+							</div>
+						</article>
+						<article>
+							<img src="img/52-hot_products.jpg" title="Oranges"></img>
+							<div class="desc">
+								<div class="promo_prix_pourcentage">-20%</div>
+								<h5>Oranges</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<span class="prix_actual">2.40€/kg</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="prix_old">3.00€/kg</span>
+							</div>
+						</article>
+						<article>
+							<img src="img/55-hot_products.jpg" title="Radis"></img>
+							<div class="desc">
+								<div class="promo_prix_pourcentage">-10%</div>
+								<h5>Radis</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<span class="prix_actual">3.82€</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="prix_old">4.50€ la botte</span>
+							</div>
+						</article>
+						<a href="#" id="plus_offres">» Toutes nos offres</a>
+					</section>
+				</section>
+			</div>
 		</div>
+		<!-- DERNIERES INFOS PRODUITS -->
+		<div id="pre_footer">
+			<div class="corps">
+				<div id="back_top"><a href="#haut_de_page">Haut</a></div><h3><strong>Dernières</strong> infos produits</h3>
+				<section id="dernieres_infos_produits">
+					<article>
+						<img src="img/4.png" alt="Haricots"></img>
+						<div>
+							<span class="title">Les petits poids, c'est bon pour la santé</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis eros eget augue porttitor, vitae sollicitudin arcu tristique. Aenean tincidunt purus nibh, condimentum porttitor orci vehicula eu. Curabitur eget nibh.</p>
+						</div>
+					</article>
+					<article>
+						<img src="img/3.png" alt="Brocolis ou choux de Bruxelles"></img>
+						<div class="title">Brocolis ou choux de Bruxelles ?</div>
+					</article>
+					<article>
+						<img src="img/2_002.png" alt="Radis"></img>
+						<div class="title">Des radis pour le printemps</div>
+					</article>
+					<article>
+						<img src="img/1.png" alt="Choux fleurs"></img>
+						<div class="title">Nos derniers choux fleurs</div>
+					</article>
+				</section>
+			</div>
+		</div>
+
 	</div>
 	<!-- FOOTER -->
 	<footer>
@@ -274,4 +283,6 @@
 			</section>
 		</div>
 	</footer>
+
+	<script type="text/javascript" src="js/app.js"></script>
 </body>

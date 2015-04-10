@@ -683,3 +683,8 @@ footer section:last-child input:last-child {
 	border: 2px solid #d9dbd5;
 	color: #939292;
 	}
+
+/** Ajout responsive **/
+.mobile {
+	display: none;
+}
