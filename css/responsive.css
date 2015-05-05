@@ -24,6 +24,11 @@ header{
 	background-color: white;
 }
 
+body a {
+    padding: 10px;
+    font-size: 14px;
+}
+
 /** DRAWER **/
 .menuDeroulant{
 	position: fixed; 
@@ -226,4 +231,14 @@ transition: all 0.15s ease-in-out;
 
 .desktop {
 	display: none;
+}
+
+footer section.section_footer {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer section.section_footer p {
+    padding: 5px 0px;
 }
