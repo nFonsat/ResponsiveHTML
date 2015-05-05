@@ -24,6 +24,12 @@ header{
 	background-color: white;
 }
 
+#content{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
 /** DRAWER **/
 .menuDeroulant{
 	position: fixed; 
@@ -222,6 +228,57 @@ transition: all 0.15s ease-in-out;
 
 .offres_infos {
     width: 100%;
+}
+
+#presentation_produit {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#nouveaux_produits{
+	width: inherit;
+	float: none;
+}
+
+#nouveaux_produits article {
+	width: 100%;
+	text-align: center;
+}
+
+#nouveaux_produits article h5{
+	font-size: 16px;
+}
+
+#nouveaux_produits article p{
+	display: none;
+}
+
+#nouveaux_produits article span {
+	font-size: 14px;
+}
+
+#nouveaux_produits article img{
+	text-align: center;
+}
+
+#nouveaux_produits aside img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+#nouveaux_produits table {
+	margin: 10px auto 0 auto;
+	width: 80%;
+}
+
+#nouveaux_produits table a {
+	font-size: 14px;
+}
+
+#offre_du_moment {
+	display: none;
 }
 
 .desktop {
