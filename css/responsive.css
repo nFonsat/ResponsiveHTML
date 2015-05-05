@@ -278,6 +278,10 @@ body a {
 	float: none;
 }
 
+#second_part {
+    width: 100%
+}
+
 #nouveaux_produits article {
 	width: 100%;
 	text-align: center;
@@ -430,10 +434,16 @@ body a {
 #back_top{
 	display: none;
 }
-footer section.section_footer {
+
+footer section.section_footer:last-child {
     width: 100%;
+}
+
+footer section.section_footer {
+    width: 50%;
     box-sizing: border-box;
     text-align: center;
+    margin: 0 -3px 0 0;
 }
 
 footer section.section_footer p {
