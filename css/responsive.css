@@ -28,14 +28,21 @@ header{
 	background-color: white;
 }
 
+body a {
+    padding: 10px;
+    font-size: 14px;
+}
+
 #content{
 	width: 100%;
 	height: auto;
 	float: left;
+	overflow-x: hidden;
 }
 
 .open-cart{
 	display: block;
+	padding: 0;
 }
 
 .open-cart img {
@@ -251,6 +258,15 @@ header{
     width: 100%;
 }
 
+.offres_image {
+	width: 100%;
+}
+
+.offres_image img {
+	max-width: 100%;
+	height: auto;
+}
+
 #presentation_produit {
 	width: 100%;
 	height: auto;
@@ -311,6 +327,7 @@ header{
 	bottom: 0;
 	background-color: rgba(130, 161, 37, 0.8);
 	z-index: 19;
+	cursor: pointer;
 }
 
 #bloc_right_background_cross {
@@ -371,10 +388,54 @@ header{
 	padding: 0;
 }
 
+#dernieres_infos_produits_title {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#dernieres_infos_produits {
+    padding: 0px;
+}
+
+#dernieres_infos_produits article:first-child ,
+#dernieres_infos_produits article {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px -3px 10px 0;
+    padding: 0px 5px;
+}
+
+#dernieres_infos_produits article img:first-child,
+#dernieres_infos_produits article img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+#dernieres_infos_produits article:first-child div,
+#dernieres_infos_produits article div {
+    width: 100%;
+    float: none;
+    margin: 5px 0px;
+    padding: 0;
+}
+
 .desktop {
 	display: none;
 }
 
 #back_top{
 	display: none;
+}
+footer section.section_footer {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer section.section_footer p {
+    padding: 5px 0px;
 }
