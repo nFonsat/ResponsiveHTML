@@ -167,10 +167,10 @@ transition: all 0.15s ease-in-out;
 }
 
 #top a{
-    width: 24%;
+    width: 25%;
     display: inline-block;
+    margin: 0 -3px 0 0;
     text-align: center;
-    margin: 0;
     padding: 0;
 }
 
@@ -203,13 +203,26 @@ transition: all 0.15s ease-in-out;
 }
 
 #offres_speciales #images img{
-    width: 100%
+    width: 100%;
 }
 
 #offres_speciales #information_btn{
     float: right;
     display: block;
  }
+
+ #offres {
+    width: 100%;
+ }
+
+.offre {
+    width: 33%;
+    margin: 0 -3px 0 0;
+}
+
+.offres_infos {
+    width: 100%;
+}
 
 .desktop {
 	display: none;
