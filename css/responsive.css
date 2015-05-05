@@ -286,6 +286,41 @@ transition: all 0.15s ease-in-out;
 	display: none;
 }
 
+#dernieres_infos_produits_title {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#dernieres_infos_produits {
+    padding: 0px;
+}
+
+#dernieres_infos_produits article:first-child ,
+#dernieres_infos_produits article {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px -3px 10px 0;
+    padding: 0px 5px;
+}
+
+#dernieres_infos_produits article img:first-child,
+#dernieres_infos_produits article img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+#dernieres_infos_produits article:first-child div,
+#dernieres_infos_produits article div {
+    width: 100%;
+    float: none;
+    margin: 5px 0px;
+    padding: 0;
+}
+
 .desktop {
 	display: none;
 }
